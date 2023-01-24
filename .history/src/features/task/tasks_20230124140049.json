@@ -1,0 +1,39 @@
+{
+    "tasks": [
+        {
+            "name": "Design and wireframe creation",
+            "time": "2 weeks",
+            "cost": "$5,000",
+            "description": "Creating the design and wireframe for the web application",
+            "nextTasks": ["Frontend development", "Backend development"]
+        },
+        {
+            "name": "Frontend development",
+            "time": "4 weeks",
+            "cost": "$10,000",
+            "description": "Developing the frontend of the web application using React",
+            "nextTasks": ["Backend development", "Testing and QA"]
+        },
+        {
+            "name": "Backend development",
+            "time": "6 weeks",
+            "cost": "$15,000",
+            "description": "Developing the backend of the web application using Node.js and Express",
+            "nextTasks": ["Testing and QA", "Deployment"]
+        },
+        {
+            "name": "Testing and QA",
+            "time": "2 weeks",
+            "cost": "$3,000",
+            "description": "Conducting testing and quality assurance on the web application",
+            "nextTasks": ["Deployment"]
+        },
+        {
+            "name": "Deployment",
+            "time": "1 week",
+            "cost": "$2,000",
+            "description": "Deploying the web application to a hosting provider",
+            "nextTasks": []
+        }
+    ]
+}

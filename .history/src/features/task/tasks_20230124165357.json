@@ -1,0 +1,122 @@
+{
+    "tasks": [
+        {
+            "name": "Design and wireframe creation",
+            "time": "2 weeks",
+            "cost": "$5,000",
+            "description": "Creating the design and wireframe for the web application",
+            "nextTasks": ["Frontend development", "Backend development"]
+        },
+        {
+            "name": "Frontend development",
+            "time": "4 weeks",
+            "cost": "$10,000",
+            "description": "Developing the frontend of the web application using React",
+            "nextTasks": ["Backend development", "Testing and QA"]
+        },
+        {
+            "name": "Backend development",
+            "time": "6 weeks",
+            "cost": "$15,000",
+            "description": "Developing the backend of the web application using Node.js and Express",
+            "nextTasks": ["Testing and QA", "Deployment"]
+        },
+        {
+            "name": "Testing and QA",
+            "time": "2 weeks",
+            "cost": "$3,000",
+            "description": "Conducting testing and quality assurance on the web application",
+            "nextTasks": ["Deployment"]
+        },
+        {
+            "name": "Deployment",
+            "time": "1 week",
+            "cost": "$2,000",
+            "description": "Deploying the web application to a hosting provider",
+            "nextTasks": []
+        },
+        {
+            "name": "Database setup",
+            "time": "10 hours",
+            "cost": "$1000",
+            "description": "Setting up and configuring a database for the application",
+            "nextTasks": ["API development", "Backend software development"]
+        },
+        {
+            "name": "API development",
+            "time": "20 hours",
+            "cost": "$2000",
+            "description": "Developing the API for the application",
+            "nextTasks": ["Backend software development"]
+        },
+        {
+            "name": "Backend software development",
+            "time": "50 hours",
+            "cost": "$5000",
+            "description": "Developing the backend software for the application",
+            "nextTasks": []
+        },
+        {
+            "name": "Frontend client development",
+            "time": "30 hours",
+            "cost": "$3000",
+            "description": "Developing the frontend client for the application",
+            "nextTasks": ["Frontend testing"]
+        },
+        {
+            "name": "Frontend testing",
+            "time": "10 hours",
+            "cost": "$1000",
+            "description": "Testing the frontend client for the application",
+            "nextTasks": []
+        },{
+            "name": "Design and wireframe creation",
+            "time": "2 weeks",
+            "cost": "$5,000",
+            "description": "Creating the design and wireframe for the mobile application",
+            "nextTasks": ["Frontend development", "Backend development"]
+          },
+          {
+            "name": "Frontend development",
+            "time": "4 weeks",
+            "cost": "$10,000",
+            "description": "Developing the frontend of the mobile application using React Native",
+            "nextTasks": ["Backend development", "Testing and QA"]
+          },
+          {
+            "name": "Backend development",
+            "time": "6 weeks",
+            "cost": "$15,000",
+            "description": "Developing the backend of the mobile application using Node.js and Express",
+            "nextTasks": ["Testing and QA", "Deployment"]
+          },
+          {
+            "name": "Testing and QA",
+            "time": "2 weeks",
+            "cost": "$3,000",
+            "description": "Conducting testing and quality assurance on the mobile application",
+            "nextTasks": ["Deployment"]
+          },
+          {
+            "name": "Deployment",
+            "time": "1 week",
+            "cost": "$2,000",
+            "description": "Deploying the mobile application to the app store",
+            "nextTasks": []
+          },
+          {
+            "name": "Push notifications implementation",
+            "time": "1-2 weeks",
+            "cost": "$1,000 - $2,000",
+            "description": "Implementing push notifications feature for the mobile application",
+            "nextTasks": ["Testing and QA"]
+          },
+          {
+            "name": "In-app purchases integration",
+            "time": "2-3 weeks",
+            "cost": "$2,500 - $3,500",
+            "description": "Integrating in app purchases ",
+            "nextTasks" :[]
+          }
+    ]
+}

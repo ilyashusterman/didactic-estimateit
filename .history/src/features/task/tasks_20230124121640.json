@@ -1,0 +1,17 @@
+[{
+    "id": "1",
+    "name": "test",
+    "cost": 12000,
+    "time": "2w",
+    "description": "description",
+    "nextTasks": []
+},
+{
+    "id": "2",
+    "name": "test2",
+    "cost": 15000,
+    "time": "3w",
+    "description": "description",
+    "nextTasks": []
+}
+]
