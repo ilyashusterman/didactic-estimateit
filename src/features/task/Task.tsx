@@ -1,18 +1,25 @@
 import TaskCanvas from "./canvas/TaskView";
 import AutoCompleteTask from "./AutoCompleteTask";
-import { Task } from "./types";
 import { TaskEstimation } from "./estimation/TaskEstimation";
+import styled from "styled-components";
+
+const Box = styled.div<{ isCentered: boolean }>`
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+`;
 
 const TaskView = () => {
   return (
     <div>
-      <ul>
+      <Box isCentered={true}>
         <AutoCompleteTask />
-      </ul>
-      <div style={{ height: 400 }}>
-        <TaskCanvas />
+        <div style={{ height: 800, width: "100%" }}>
+          <TaskCanvas />
+        </div>
         <TaskEstimation />
-      </div>
+      </Box>
     </div>
   );
 };

@@ -7,14 +7,18 @@ import ReactFlow, {
   Edge,
   useReactFlow,
   ReactFlowProvider,
+  NodeOrigin,
 } from "reactflow";
 
-import "reactflow/dist/base.css";
+// import "reactflow/dist/base.css";
+import "reactflow/dist/style.css";
 import "./index.css";
 import TurboNode from "./TurboNode";
 import TurboEdge from "./TurboEdge";
 import { useAppSelector } from "../../../app/hooks";
 import { selectSystemTasks, selectTasks } from "../taskSlice";
+
+const nodeOrigin: NodeOrigin = [0.5, 0.5];
 
 const nodeTypes = {
   turbo: TurboNode,
@@ -25,8 +29,9 @@ const edgeTypes = {
 };
 
 const defaultEdgeOptions = {
-  type: "turbo",
+  //   type: "turbo",
   markerEnd: "edge-circle",
+  type: "mindmap",
 };
 
 interface TaskCanvasView {
@@ -93,6 +98,7 @@ const TaskCanvasView = ({ marginPadding = 250, ...props }: TaskCanvasView) => {
       nodeTypes={nodeTypes}
       edgeTypes={edgeTypes}
       defaultEdgeOptions={defaultEdgeOptions}
+      nodeOrigin={nodeOrigin}
     >
       <Controls showInteractive={false} />
       <svg>

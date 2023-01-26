@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/didactic-estimateit/static/css/main.c3b45c60.css",
-    "main.js": "/didactic-estimateit/static/js/main.bc12288c.js",
+    "main.css": "/didactic-estimateit/static/css/main.8bd32377.css",
+    "main.js": "/didactic-estimateit/static/js/main.2d8ed773.js",
     "static/js/787.9a334afa.chunk.js": "/didactic-estimateit/static/js/787.9a334afa.chunk.js",
     "index.html": "/didactic-estimateit/index.html",
-    "main.c3b45c60.css.map": "/didactic-estimateit/static/css/main.c3b45c60.css.map",
-    "main.bc12288c.js.map": "/didactic-estimateit/static/js/main.bc12288c.js.map",
+    "main.8bd32377.css.map": "/didactic-estimateit/static/css/main.8bd32377.css.map",
+    "main.2d8ed773.js.map": "/didactic-estimateit/static/js/main.2d8ed773.js.map",
     "787.9a334afa.chunk.js.map": "/didactic-estimateit/static/js/787.9a334afa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3b45c60.css",
-    "static/js/main.bc12288c.js"
+    "static/css/main.8bd32377.css",
+    "static/js/main.2d8ed773.js"
   ]
 }
